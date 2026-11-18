@@ -1,0 +1,56 @@
+
+/* PERPUSKITA - MAIN STYLE */
+
+:root {
+  --primary: #6558dc;
+  --secondary: #a18af5;
+  --background: #f5f6ff;
+  --text: #25294a;
+  --white: #ffffff;
+  --orange: #ffb84d;
+  --green: #43bd83;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--background);
+  color: var(--text);
+}
+
+button, input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.card {
+  background: var(--white);
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 5px 20px rgba(50,50,100,.06);
+}
+
+.primary-button {
+  background: var(--primary);
+  color: white;
+  padding: 11px 18px;
+  border-radius: 11px;
+}
+
+.primary-button:hover {
+  background: #5043c2;
+}
+
+@media(max-width:650px) {
+  .card {
+    padding: 15px;
+  }
+}
